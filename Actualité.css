@@ -1,0 +1,52 @@
+body
+{
+   background: #5B1A16;
+   
+}
+.hero-section
+{
+  display: grid;
+gap: 17px 0px;
+
+}
+header
+{
+  text-align: center;
+  font-weight: 100px; 
+}
+.hero-imag
+{
+  display: grid;
+  background-image:url(imag/payday2.jpg) ;
+  grid-template-rows: 300px;
+    background-size:cover;
+    background-position: center;
+    color: aliceblue;
+    border-radius: 50px;
+    text-align: center;
+    align-items: end;
+    font-size: 50px;
+
+}
+
+.carte-hero{
+  display: grid;
+ grid-template-columns: auto auto auto ;
+grid-template-rows: 400px 400px;
+
+ 
+  gap: 30px;
+
+   
+}
+.carte{
+ background: red;
+ border-radius: 25px;
+  display: flex;
+   
+  
+ 
+}
+.carte h3{
+  text-align: center;
+}
