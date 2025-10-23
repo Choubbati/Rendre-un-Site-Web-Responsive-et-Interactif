@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+
+
+body {
+  background: #3a0f0c;
+font-family: "Orbitron", sans-serif;
+color: white;
+}
+
+.hero-section {
+  display: grid;
+  gap: 10px 40px;
+
+}
+
+header {
+  text-align: center;
+  font-weight: 100px;
+
+}
+
+
+  
+
+
+.hero-imag {
+  display: grid;
+  background-image: url(imag/payday2.jpg);
+  grid-template-rows: 300px;
+  background-size: cover;
+  background-position: center;
+  
+  border-radius: 50px;
+
+ 
+  font-size: 50px;
+
+}
+
+article
+{ display: grid;
+    background: #220000;
+  border-radius: 90px 90px 0 0;
+
+gap: 10px;
+color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+.time-news{
+    display: grid;
+    grid-template-columns: auto auto;
+   
+place-content: end space-between;
+color: white;
+}
+.time-news .span-1
+{
+  
+   padding-left:90px ;
+}
+.time-news .span-2
+{
+   padding-right:90px ;
+ 
+}
+.art-paragraph{
+   padding-left: 30px;
+}
+.art-paragraph h3{
+   padding-left: 30px;
+   
+
+}
+#h3{
+
+background: linear-gradient( to right,#F23F3F,#FFFFFF);
+color: transparent;
+background-clip: text;
+
+
+
+}
+
+.art-imag{
+    display: grid;
+    grid-template-columns:auto auto ;
+    gap: 30px;
+    padding: 10px;
+    place-items: center;
+}
