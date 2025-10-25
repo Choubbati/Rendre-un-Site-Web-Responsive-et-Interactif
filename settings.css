@@ -1,65 +1,416 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header {
+
+    background: linear-gradient(0deg, #0C0101 -25.47%, #9E0404 702.56%);
+    height: 70px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+
+}
+
+.nav-bar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    position: sticky;
+
+}
+
+.nav-bar img {
+    height: 80px;
+    margin-left: 50px;
+}
+
+.nav-links {
+    margin-right: 80px;
+    list-style: none;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.nav-bar li a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    justify-content: space-between;
+}
+
+.nav-bar li a:hover {
+    color: gold;
+    border-bottom: 2px solid white;
+
+
+}
+
+.btn-cnx {
+    border-radius: 10px;
+    background-color: #7A0000;
+}
+
+.nav-bar .btn-cnx:hover {
+    border: 1px solid gold;
+    border-bottom: no 2px solid gold;
+    box-shadow: 0 0 10px white;
+}
+
 body {
     font-family: "Orbitron", sans-serif;
     background: linear-gradient(135deg, #7A0000 0%, #FF1A1A 100%);
 }
 
 h1 {
-
     display: flex;
     justify-content: center;
     font-size: 40PX;
     color: white;
     border: black;
     text-shadow: 0px 5px 5px black;
+    margin-top: 3rem;
 }
 
-section {
-    padding: 30px;
-    border-radius: 10px;
-    background-color: #b71616;
+.container {
+    display: grid;
+    width: 75%;
+    justify-self: center;
+    height: 40px;
+    grid-template-columns: 1fr 1fr;
 
 }
 
-.container-sitting {
-    display: flex;
-    justify-content: space-around;
+.container1 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-auto-rows: 300px;
     align-items: center;
+    background-image: url("assets/images/loginbg.png");
+    background-repeat: no-repeat;
+    justify-self: center;
+    width: 1024px;
+    height: 520px;
+    grid-template-columns: auto auto auto;
+    background-color: #b71616;
+    padding: 60px;
+    border-radius: 10px;
+
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-auto-rows: 300px;
+    align-items: center;
+    background-image: url("assets/images/loginbg.png");
+    background-repeat: no-repeat;
+    justify-self: center;
+    width: 1024px;
+    height: 535px;
+    grid-template-columns: auto auto auto;
+    background-color: #b71616;
+    padding: 60px;
+    border-radius: 10px;
+
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2 a {
+    text-decoration: none;
+    color: white;
 }
 
 h2 {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: medium;
     color: white;
+    margin-bottom: 8px;
+    font-size: large;
 }
 
 .global {
+    grid-column: 1;
+    display: grid;
     border-radius: 5px;
+    padding-top: 15px;
     margin: 15px;
     background-color: #5c04048c;
-    color: gold;
+    color: #F0920E;
 }
 
+.global4 {
+    grid-column: 2;
+    display: grid;
+    border-radius: 5px;
+    padding-top: 15px;
+    margin: 15px;
+    background-color: #5c04048c;
+    color: #F0920E;
 
+}
 
 .form {
     padding: 20px;
     background-color: #350202b0;
-    width: 400px;
-    height: 250px;
+    height: 390px;
     border-radius: 5px;
 }
 
-.boutton button {
+.global2 {
+    width: 400px;
+    height: 500px;
+    margin-top: 7rem;
+    border-radius: 30px;
+    background-color: #4f0303a2;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 2rem;
+}
+
+.global2 h3 {
+    font-size: 40px;
+}
+
+.mdpoublie {
+    display: grid;
+}
+
+.mdpoublie button {
+    width: 10rem;
+    height: 3rem;
+    justify-self: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #9E0404, #1B0101);
+    border: none;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
     font-weight: bold;
-    background-color: gold;
-    display: flex;
-    
+    font-style: normal;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.email1 input {
+    background-color: #696969b4;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.nom1 input {
+    background-color: #696969b4;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.mdp input {
+    background-color: #696969b4;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.mdp2 input {
+    background-color: #696969b4;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.mdpconfirme input {
+    background-color: #696969b4;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.email2 input {
+    background-color: #696969b4;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.global3 {
+    width: 400px;
+    height: 523px;
+    margin-top: 8rem;
+    margin-bottom: 0.5rem;
+    border-radius: 30px;
+    background-color: #4f0303a2;
+    color: white;
+    display: grid;
+    text-align: center;
+    padding: 2rem;
+}
+
+.sinscrire {
+    display: grid;
+}
+
+.sinscrire button {
+    width: 10rem;
+    height: 3rem;
+    justify-self: center;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #9E0404, #1B0101);
+    border: none;
+    color: white;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.sinscrire p {
+    font-size: 10px;
+}
+
+.mdpoublie p {
+    font-size: 10px;
+}
+
+.email1 {
+    display: grid;
+    padding: 40px;
+    text-align: left;
+}
+
+.mdp {
+    display: grid;
+    padding: 40px;
+    text-align: left;
+}
+
+.nom1 {
+    display: grid;
+    padding: 20px;
+    text-align: left;
+}
+
+.mdpconfirme {
+    display: grid;
+    padding: 20px;
+    text-align: left;
+}
+
+.email2 {
+    display: grid;
+    padding: 20px;
+    text-align: left;
+}
+
+.mdp2 {
+    display: grid;
+    padding: 20px;
+    text-align: left;
 }
 
 
 
+.boutton button {
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+    background-color: #F0920E;
+    border-radius: 16px;
+    display: grid;
+    padding: 10px;
+    text-align: left;
+    margin: 5px;
+    justify-self: center;
+    width: 200px;
+    height: 41px;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .tournaments-grid,
+    .teams-grid,
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.prenom {
+    display: grid;
+    padding: 10px;
+    text-align: left;
+}
+
+.nom {
+    display: grid;
+    padding: 10px;
+    text-align: left;
+}
+
+.naissance {
+    display: grid;
+    padding: 10px;
+    text-align: left;
+}
+
+.telephone {
+    display: grid;
+    padding: 10px;
+    text-align: left;
+}
+
+.global input {
+    text-align: left;
+    padding-left: 3px;
+    width: 370px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+}
+
+.global4 input {
+    text-align: left;
+    padding-left: 3px;
+    width: 370px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: #D9D9D9;
+
+}
