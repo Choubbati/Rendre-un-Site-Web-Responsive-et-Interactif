@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Header */
+
+
+header {
+
+    background: linear-gradient(0deg, #0C0101 -25.47%, #9E0404 702.56%);
+    height: 70px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+
+
+}
+
+.nav-bar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+
+}
+
+.nav-bar img {
+    height: 80px;
+    margin-left: 50px;
+}
+
+.nav-links {
+    margin-right: 80px;
+    list-style: none;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+.nav-bar li a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    justify-content: space-between;
+}
+
+.nav-bar li a:hover {
+    color: gold;
+    border-bottom: 2px solid white;
+
+
+}
+
+.btn-cnx {
+    border-radius: 10px;
+    background-color: #7A0000;
+}
+
+.nav-bar .btn-cnx:hover {
+    border: 1px solid gold;
+    border-bottom: no 2px solid gold;
+    box-shadow: 0 0 10px white;
+}
+/* Hero section */
+
+.hero-section {
+    padding-top: 100px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: repeat(3, 1fr);
+    background-image: linear-gradient(-45deg, #640903, #8c0a01, #640903);
+}
+
+.title{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title h1 {
+    font-family: orbitron;
+    font-weight: bold;
+    font-size: 160px;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    text-shadow: 12px 12px 16px black;
+    line-height: 100px;
+}
+
+.title h2 {
+    font-family: orbitron;
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    -webkit-text-stroke: 3px black;
+    text-shadow: 12px 12px 16px black;
+}
+
+.hero-section p {
+    color: white;
+    font-family: orbitron;
+    font-size: 26px;
+    width: 663px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-section .home-button {
+    width: 359px;
+    height: 83px;
+    border: none;
+    border-radius: 16px;
+    background: linear-gradient(to top, #1B0101, #9E0404);
+    align-self: self-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0px 22px 49px black;
+}
+.hero-section .home-button:hover{
+    border: 1px solid gold;
+    border-bottom: no 2px solid gold;
+    box-shadow: 0 0 10px white;
+}
+.hero-section .home-button a {
+    text-decoration: none;
+    color: gold;
+    font-family: orbitron;
+    font-size: 24px;
+}
