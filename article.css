@@ -6,12 +6,75 @@ body {
   background: #3a0f0c;
 font-family: "Orbitron", sans-serif;
 color: white;
+margin: 0%;
 }
 
 .hero-section {
   display: grid;
   gap: 10px 40px;
 
+}
+
+
+.header-section{
+
+    background: linear-gradient(0deg, #0C0101 -25.47%, #9E0404 702.56%);
+    height: 70px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  
+
+
+
+}
+
+.nav-bar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+
+
+}
+
+.nav-bar img {
+    height: 80px;
+    margin-left: 50px;
+}
+  .nav-links{
+    margin-right: 80px;
+    list-style:none;
+    gap: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+
+
+.nav-bar li a {
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    justify-content: space-between;
+}
+
+.nav-bar li a:hover {
+    color: gold;
+    border-bottom: 2px solid white;
+
+
+}
+.btn-cnx{
+    border-radius: 10px;
+
+    background-color: #7A0000;
+}
+.nav-bar .btn-cnx:hover{
+    border: 1px solid gold;
+    border-bottom: no 2px solid gold;
+    box-shadow: 0 0 10px white;
 }
 
 header {
