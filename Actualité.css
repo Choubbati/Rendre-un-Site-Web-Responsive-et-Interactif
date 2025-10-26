@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&display=swap');
+
+
+
+body {
+  background: #3a0f0c;
+font-family: "Orbitron", sans-serif;
+}
+
+.hero-section {
+  display: grid;
+  gap: 17px 0px;
+
+}
+
+header {
+  text-align: center;
+  font-weight: 100px;
+
+}
+
+h1 {
+  color: white;
+}
+
+.hero-imag {
+  display: grid;
+  background-image: url(imag/payday2.jpg);
+  grid-template-rows: 300px;
+  background-size: cover;
+  background-position: center;
+  color: aliceblue;
+  border-radius: 50px;
+  text-align: center;
+  align-items: end;
+  font-size: 50px;
+
+}
+.hero-imag a{
+  color: white;
+}
+
+.carte-hero {
+  display: grid;
+  grid-template-columns: 336px 336px 336px;
+  grid-template-rows: 379px 379px;
+
+  justify-content: center;
+  gap: 40px 90px;
+
+
+}
+
+.carte {
+  background-image: linear-gradient(180deg, #5A1B16 0%, #A91B12 100%);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.614);
+
+  color: white;
+}
+
+.btn-a {
+  width: 300px;
+
+  text-align: end;
+
+}
+
+.carte h3 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #EE7700;
+
+}
