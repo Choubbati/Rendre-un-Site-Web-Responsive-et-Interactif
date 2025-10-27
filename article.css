@@ -6,9 +6,12 @@ body {
   background: #3a0f0c;
 font-family: "Orbitron", sans-serif;
 color: white;
+<<<<<<< HEAD
 margin: 0%;
 box-sizing: content-box;
 width: 100%;
+=======
+>>>>>>> 63af44474cfbef8e802bca89cacb49a2762ad554
 }
 
 .hero-section {
@@ -18,7 +21,11 @@ width: 100%;
 }
 
 
+<<<<<<< HEAD
 .header-section{
+=======
+header {
+>>>>>>> 63af44474cfbef8e802bca89cacb49a2762ad554
 
     background: linear-gradient(0deg, #0C0101 -25.47%, #9E0404 702.56%);
     height: 70px;
@@ -26,8 +33,11 @@ width: 100%;
     font-optical-sizing: auto;
     font-weight: bold;
     font-style: normal;
+<<<<<<< HEAD
   
 
+=======
+>>>>>>> 63af44474cfbef8e802bca89cacb49a2762ad554
 
 
 }
@@ -44,6 +54,7 @@ width: 100%;
     height: 80px;
     margin-left: 50px;
 }
+<<<<<<< HEAD
   .nav-links{
     margin-right: 80px;
     list-style:none;
@@ -52,6 +63,17 @@ width: 100%;
     align-items: center;
     justify-content: end;
   }
+=======
+
+.nav-links {
+    margin-right: 80px;
+    list-style: none;
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+>>>>>>> 63af44474cfbef8e802bca89cacb49a2762ad554
 
 
 
@@ -68,17 +90,28 @@ width: 100%;
 
 
 }
+<<<<<<< HEAD
 .btn-cnx{
     border-radius: 10px;
 
     background-color: #7A0000;
 }
 .nav-bar .btn-cnx:hover{
+=======
+
+.btn-cnx {
+    border-radius: 10px;
+    background-color: #7A0000;
+}
+
+.nav-bar .btn-cnx:hover {
+>>>>>>> 63af44474cfbef8e802bca89cacb49a2762ad554
     border: 1px solid gold;
     border-bottom: no 2px solid gold;
     box-shadow: 0 0 10px white;
 }
 
+<<<<<<< HEAD
 .title-header {
   text-align: center;
   font-weight: 100px;
@@ -97,6 +130,11 @@ width: 100%;
   
   
 }
+=======
+
+  
+
+>>>>>>> 63af44474cfbef8e802bca89cacb49a2762ad554
 
 .hero-imag {
   display: grid;
