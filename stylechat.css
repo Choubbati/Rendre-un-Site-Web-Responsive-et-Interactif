@@ -81,13 +81,10 @@ body {
 .chat-div{
     width: 100%;
     height: 70px;
-    /* z-index: 1; */
     background-image: linear-gradient(-45deg, #640903, #8c0a01, #640903);
     display: grid;
     align-items: center;
     place-items: center;
-    /* margin-bottom: 10px; */
-    /* position: fixed; */
 }
 
 .chat-div h1{
@@ -102,7 +99,6 @@ body {
     gap: 24px;
     margin-left: 24px;
     position: relative;
-    margin-top: 180px;
 }
 
 .chat-contact {
@@ -178,6 +174,11 @@ body {
     margin-bottom: 20px;
 }
 
+.onecontact:hover {
+    background: rgb(164, 164, 164);
+    border: 1px solid black;
+}
+
 .profile{
     width: 60px;
     height: 60px;
@@ -195,16 +196,19 @@ body {
 }
 
 .chat-logo {
-    position: fixed;
-    top: 280px;
-    right: 24px;
-    height: 450px;
-    width: 66%;
+    height: 100%;
+    width: 100%;
     display: grid;
     place-items: center;
     background: #e7e7e7;
     border: none;
     border-radius: 30px;
+}
+
+.logo-style {
+    display: grid;
+    justify-items: center;
+    gap: 24px;
 }
 
 .comment-logo {
@@ -292,3 +296,169 @@ body {
   font-size: 14px;
 }
 
+.conversation {
+    border: none;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.6);
+    display: grid;
+    padding: 0 24px;
+}
+
+.date-conversation{
+    margin-top: 20px;
+    justify-self: center;
+}
+
+.send{
+    justify-self: end;
+    display: grid;
+    grid-auto-rows: max-content;
+    gap: 4px;
+}
+
+.received {
+    justify-self: start;
+    display: grid;
+    grid-auto-rows: max-content;
+    gap: 4px;
+}
+
+.sent-message {
+    background: #e34747f3;
+    border: none;
+    border-radius: 30px;
+    width: 360px;
+    height: 70px;
+}
+
+.sent-message-date {
+    justify-self: end;
+    margin-right: 10px;
+}
+
+.receive-message {
+    background: #e3474797;
+    border: none;
+    border-radius: 30px;
+    width: 360px;
+    height: 100px;
+}
+
+.receive-message-date {
+    margin-left: 10px;
+}
+
+.send-message {
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 411px;
+    height: 55px;
+    justify-self: center;
+    margin: 24px 0;
+    padding: 5px 0 0 20px;
+    font-weight: bold;
+}
+
+.conversation-chat{
+    display: grid;
+    grid-template-columns: 28% 38% 28%;
+    margin-top: 20px;
+}
+
+.inforeceiver {
+    border: none;
+    display: grid;
+    grid-auto-rows: max-content;
+    border-radius: 30px;
+    background: white;
+    gap: 24px;
+}
+
+.profile-receiver {
+    width: 180px;
+    height: 180px;
+    border-radius: 90px;
+    justify-self: center;
+    margin-top: 24px;
+    background: gray;
+}
+
+.receiver-name {
+    font-size: 24px;
+    font-weight: bold;
+    justify-self: center;
+}
+
+.receiver-mail {
+    font-size: 20px;
+    font-weight: bold;
+    justify-self: center;
+    color: grey;
+}
+
+.info-contact {
+    justify-self: center;
+    display: grid;
+    grid-auto-rows: max-content;
+    gap: 10px;
+    background: rgba(128, 128, 128, 0.142);
+    padding: 20px 45px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+
+.title-info {
+    font-size: 14px;
+    color: grey;
+    font-weight: bolder;
+}
+
+.donnes {
+    font-weight: bold;
+}
+
+.top-media {
+    margin-left: 24px;
+}
+
+.media {
+    background: rgba(128, 128, 128, 0.687);
+    width: 90%;
+    justify-self: center;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.button-media {
+    color: black;
+    font-weight: bold;
+}
+
+.link-info{
+    color: blue;
+    margin-left: 24px;
+}
+
+.line {
+    width: 90%;
+    justify-self: center;
+    height: 5px;
+    border-radius: 20px;
+    background: #33333370;
+}
+
+.emptydiv {
+    width: 90%;
+    justify-self: center;
+    height: 100px;
+    background: #33333367;
+}
