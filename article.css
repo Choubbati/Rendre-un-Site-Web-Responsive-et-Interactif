@@ -82,7 +82,7 @@ header {
 
 .hero-imag {
   display: grid;
-  background-image: url(imag/payday2.jpg);
+  background-image: url(assets/images/1.png);
   grid-template-rows: 300px;
   background-size: cover;
   background-position: center;
